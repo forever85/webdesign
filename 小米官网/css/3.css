@@ -1,0 +1,102 @@
+.black-nav{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+    position: relative;
+    z-index: 666;
+}
+.wrap{
+    width: 1226px;
+    margin: 0 auto;
+}
+.nav-left{
+    float: left;
+}
+.black-nav li{
+    float: left;
+}
+.black-nav a{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.black-nav span{
+    color: #424242;
+    font-size: 12px;
+    margin: 0 3.6px;
+}
+.black-nav a:hover{
+    color: #fff;
+}
+.nav-right{
+    float: right;
+}
+.cart{
+    width: 120px;
+    height: 40px;
+    background-color: #424242;
+    margin-left: 25px;
+    cursor: pointer;
+    position: relative;
+}
+.cart>a{
+    display: block;
+    width: 120px;
+    height: 40px;
+    position: relative;
+    z-index: 55;
+}
+.cart i{
+    margin-right: 4px;
+}
+.cart:hover{
+    background-color: #fff;
+}
+.cart:hover>a{
+    color: #ff6700;
+}
+.cart-list{
+    width: 316px;
+    height: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15);
+    font-size: 12px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    transition: all .3s;
+    overflow: hidden;
+    z-index: 33;
+    
+}
+.cart:hover>.cart-list{
+    height: 100px;
+    line-height: 100px;
+}
+.nav-left li{
+    position: relative;
+}
+.download{
+    width: 124px;
+    height: 0;
+    background-color: #fff;
+    box-shadow: 0 1px 5px #aaa;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -62px;
+    overflow: hidden;
+    transition: all .3s;
+}
+.nav-left li:hover>.download{
+    height: 148px;
+}
+.download>img{
+    width: 90px;
+    margin: 18px 0 12px;
+}
+.download>p{
+    color: #333;
+    font-size: 14px;
+    line-height: 14px;
+}

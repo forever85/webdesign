@@ -1,0 +1,338 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+img {
+    max-width: 100%
+}
+
+body {
+    background: #e6dad0;
+    font-size: 16px;
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 25px
+}
+
+.clear {
+    clear: both
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both
+}
+
+.contain {
+    max-width: 1400px;
+    min-width: 1200px;
+    margin: 0 auto
+}
+
+.menu li {
+    list-style: none
+}
+
+.logo {
+    background: #ddbfa7;
+    float: left;
+}
+
+.head {
+    z-index: 5;
+    height: 60px;
+    position: absolute;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+    top: 0;
+    background: rgba(204, 153, 153, 0.8)
+}
+
+.banner img {
+    display: block
+}
+
+.menu {
+    text-align: center;
+    float: right;
+    padding-right: 20px
+}
+
+.menu li a {
+    font-weight: bold;
+    padding: 0px 20px;
+    font-size: 18px;
+    color: #fff
+}
+
+.menu li {
+    float: left;
+    padding: 15px 0;
+}
+
+.menu li a:hover {
+    color: #336699
+}
+
+.xuan {
+    padding: 20px 0;
+}
+
+.xuan ul {
+    margin-left: -20px;
+    margin-right: -20px
+}
+
+.xuan li {
+    width: 25%;
+    float: left;
+    text-align: center
+}
+
+.xuan li span {
+    width: 100%;
+    border-radius: 200px;
+    height: 250px;
+    display: inline-block;
+}
+
+.xuan li span img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.xuan li div {
+    padding: 0 20px
+}
+
+.xuan li div p {
+    line-height: 30px;
+    font-size: 14px
+}
+
+.xuan li div h3 {
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.text {
+    background: rgba(204, 153, 153, 0.8);
+    color: #fff;
+    padding: 30px 50px;
+}
+
+.content {
+    font-size: 14px;
+    display: inline-block;
+    padding-bottom: 30px;
+    width: 100%
+}
+
+.hei {
+    height: 140px
+}
+
+.hei2 {
+    height: 50px
+}
+
+.bgbk {
+    background: rgba(0, 0, 0, 0.8)
+}
+
+footer {
+    background: rgba(204, 153, 153, 0.8);
+    margin-top: 50px;
+    clear: both;
+    color: #fff;
+    padding-top: 5px;
+    text-align: center;
+    height: 40px;
+}
+
+.btn:hover {
+    background: #CC6666
+}
+
+.imgc {
+    width: 37%;
+    margin-left: 100px;
+    margin-right: 50px
+}
+
+.title {
+    text-align: center;
+    color: #F00;
+    padding: 10px
+}
+
+.fl {
+    float: left
+}
+
+.imgs ul {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.imgs li {
+    border: #000 solid 1px;
+    width: 22.8%;
+    margin: 1%;
+    text-align: center;
+    float: left;
+    overflow: hidden
+}
+
+.imgs li img {
+    object-fit: cover;
+    transition: all 0.4s ease-out;
+    display: block;
+    width: 100%;
+    height: 240px;
+    margin: 0 auto
+}
+
+.imgs li:hover img {
+    transform: scale(1.2);
+}
+
+.list li {
+    height: 300px;
+    margin: 40px 0
+}
+
+.list img {
+    width: 300px;
+    object-fit: cover;
+    float: right;
+    height: 300px
+}
+
+.list li .btn {
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-top: 40px
+}
+
+.list div {
+    float: left;
+    width: 750px
+}
+
+.list li:nth-child(2n) img {
+    float: left
+}
+
+.list li:nth-child(2n) div {
+    float: right
+}
+
+.list div h2 {
+    font-weight: normal;
+    padding: 30px 0;
+    font-size: 24px;
+    color: #000
+}
+
+.list div p {
+    color: #6d4a34;
+    font-size: 18px;
+}
+
+.bar {
+    font-weight: bold;
+    clear: both;
+    background: url(../images/d.png) no-repeat bottom left;
+    color: #000;
+    font-size: 24px;
+    padding: 30px 0;
+    font-family: '楷体'
+}
+
+.left {
+    width: 35%;
+    float: left
+}
+
+.right {
+    width: 60%;
+    font-size: 20px;
+    line-height: 40px;
+    float: right
+}
+
+.pj li {
+    margin: 60px 0;
+    border: #333 solid 1px;
+    padding: 20px;
+    line-height: 1.7
+}
+
+.msg {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+.msg>div {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px
+}
+
+.msg>div .input {
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border: #333 solid 1px;
+    outline: none
+}
+
+.msg>div .submit {
+    background: #333;
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    padding: 20px 20px;
+    color: #fff;
+   position: relative;
+   left: -65px;
+}
+
+.msg>div span {
+
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    padding: 15px 20px;
+    color: #fff
+}
+
+         
+            

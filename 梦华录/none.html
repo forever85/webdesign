@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>梦华录</title>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet" media="all" type="text/css" />
+    <style>
+        .contain{display: none;}
+        #neirong{border: 1px solid  #000;
+            margin: 50px;
+            padding: 5px;
+            width: 800px;
+            height: 200px;
+            border-width: 1px;
+            text-align: center;
+            background-color:aliceblue;
+        }
+        #name{border: 1px solid  #000;
+            margin: 50px;
+            padding: 5px;
+            height: 40px;
+            width: 80px;
+            border-width: 1px;
+            text-align: center;
+            background-color: aliceblue;
+        }
+    </style>
+    <script>function getQuery(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return decodeURI(r[2]); return "";
+        }
+</script>   
+</head>
+<body>
+    <header class="head ">
+        <div class="logo"><img src="images/logo.png" width="100" /></div>
+        <nav class="menu">
+            <ul class="center">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="juse.html">角色</a></li>
+                <li><a href="shipin.html">视频</a></li>
+                <li><a href="yinpin.html">音频</a></li>
+                <li><a href="tupian.html">剧照</a></li>
+                <li><a href="pingjia.html">评价</a></li>
+                <li><a href="jianyi.html">寄语</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <div class="banner">
+        <img src="./images/113.jpeg" width="100%" />
+    </div>
+     <div id="name">
+       </div>   
+       <script>
+       var n1=document.getElementById("name");
+       n1.innerHTML=getQuery("xingming");
+       </script>
+    <div id="neirong">
+    </div>   
+    <script>
+    var n1=document.getElementById("neirong");
+    n1.innerHTML=getQuery("neirong");
+    </script>
+    <footer>
+        <pre>网站主题：梦华录        创作者：郭俊熙        联系电话：15029858397
+    </pre>
+    </footer>
+</body>
+</html>
